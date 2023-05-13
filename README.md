@@ -1,19 +1,53 @@
-## General Info
+## "Online Grocery Store" - MERN Stack E-commerce Web Application
 
-This project is a simple full stack application that connects to a MongoDB database. Node.js and Express were used to code the server. React and Redux were used for the front-end. The Client folder was bootstrapped using [Create React App](https://github.com/facebook/create-react-app). Simple styling was done with the Materialize CSS package. To try this project out, clone this repository and then add your MongoURI and jwtSecret to the default.json file in the config folder.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://onlinegroceryapp.herokuapp.com/)
 
-## Available Scripts
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://onlinegroceryapp.herokuapp.com/) [![GitHub issues](https://img.shields.io/github/issues/Prince-Shivaram/online-grocerystore.svg)](https://github.com/Prince-Shivaram/online-grocerystore/issues) 
 
-In the main project directory, you can run:
+Online Grocery Store E-commerce Web Application built using MERN Stack. It has all the general features like product search, product rating & review system, cart checkout, payment gateway integration & pagination. Also admin can manage users, products & orders.
 
-### `npm run start`
+:star: **Check Live Demo here:** https://onlinegroceryapp.herokuapp.com/
 
-Runs the server code once using Node.
 
-### `npm run server`
+- If you've less time to check demo, instead of creating account, use my credentials to login: <br>
+**Email id:** test@mail.com <br> **Password:** Test@123
 
-Runs the server continuously using the nodemon package. The server will automatically restart when you change a file in the server code.
+- During cart checkout, you can use the below dummy PayPal Credentials to complete payment: <br>
+**Email id:** sb-aggby3632822@business.example.com <br> **Password:** bj8$Kd$O
 
-### `npm run dev`
+#### `Tech Stack Used:`
 
-Uses concurrently to run both the server and the client at the same time. The client-side code (React) runs on Port 3000. The server-side code (Node) runs on Port 5000.
+![Generic badge](https://img.shields.io/badge/Node.js->=14-<COLOR>.svg
+) ![Generic badge](https://img.shields.io/badge/React.js->=16.8-blue.svg) ![Generic badge](https://img.shields.io/badge/MongoDB->=5-green.svg) ![Generic badge](https://img.shields.io/badge/Express.js->=4-yellow.svg)
+
+
+
+#### `How to run locally?`
+
+```bash
+git clone https://github.com/Prince-Shivaram/online-grocerystore
+cd online-grocerystore
+npm install
+cd frontend
+npm install
+# To run server you must have .env file in root project directory
+# see below .env file structure and replace with your values
+npm run dev
+# project starts
+
+```
+
+#### `.env File Structure`
+
+```bash
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = your mongodb uri
+JWT_SECRET = 'xxxxx'
+PAYPAL_CLIENT_ID = your paypal client id
+
+```
+
+### Landing Page Snapshot
+[![test](https://user-images.githubusercontent.com/42378118/133815926-7bb15f35-dd8e-4fb5-b6b6-cdd2cd48bc20.png)](https://onlinegroceryapp.herokuapp.com/)
+ 

@@ -1,8 +1,0 @@
-.customHover {
-  cursor: pointer;
-  padding: 0 15px;
-}
-
-.customHover:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
