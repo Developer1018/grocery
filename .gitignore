@@ -1,24 +1,25 @@
-.DS_Store
-node_modules
-/dist
-notes
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# dependencies
+/node_modules
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
 
-# local env files
-.env.local
-.env.*.local
+# testing
+/frontend/coverage
 
-# Log files
+# production
+/frontend/build
+
+# misc
+/backend/config/config.env
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
